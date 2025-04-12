@@ -1,0 +1,144 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f7fb;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .login-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .login-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+  }
+  
+  .login-header h1 {
+    font-size: 24px;
+    color: #0f172a;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 24px;
+  }
+  
+  .error-message {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 8px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #4169e1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.1);
+  }
+  
+  .role-selector {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .role-option {
+    flex: 1;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .role-option.active {
+    border-color: #4169e1;
+    background-color: rgba(65, 105, 225, 0.05);
+  }
+  
+  .role-option input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  .login-button {
+    width: 100%;
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .login-button:hover {
+    background-color: #3457c0;
+  }
+  
+  .login-button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+  }
+  
+  .login-footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .login-footer a {
+    color: #4169e1;
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
